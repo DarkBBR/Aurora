@@ -1,0 +1,30 @@
+{
+  "name": "aurora-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp modular e funcional",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "clear": "node src/utils/clearSession.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys"
+  ],
+  "author": "Aurora",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.3",
+    "fs-extra": "^11.3.0",
+    "node-fetch": "^3.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.6",
+    "wa-sticker-formatter": "^4.4.4"
+  }
+}
