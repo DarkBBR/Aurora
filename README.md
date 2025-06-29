@@ -15,7 +15,7 @@ Bot de WhatsApp modular e funcional desenvolvido com Node.js e Baileys.
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/ArthurSilvaDev/Aurora-Bot-Wa.git
+git clone https://github.com/Ruthraas/Aurora-Bot-Wa.git
 cd Aurora-Bot-Wa
 ```
 

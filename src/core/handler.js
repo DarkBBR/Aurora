@@ -247,7 +247,7 @@ export async function handleMessage(sock, msg, config) {
 
     if (msg.message?.buttonsResponseMessage?.selectedButtonId === "menu_dono") {
       await sock.sendMessage(msg.key.remoteJid, {
-        text: "🌟 *AURORA BOT - GITHUB* 🌟\n\n⭐ *Dê uma starzinha no nosso repositório!*\n\n🔗 *Link:* https://github.com/ArthurSilvaDev/Aurora-Bot-Wa\n\n💖 *Seu apoio é muito importante para nós!*",
+        text: "🌟 *AURORA BOT - GITHUB* 🌟\n\n⭐ *Dê uma starzinha no nosso repositório!*\n\n🔗 *Link:* https://github.com/Ruthraas/Aurora-Bot-Wa\n\n💖 *Seu apoio é muito importante para nós!*",
       });
     }
   } catch (error) {
